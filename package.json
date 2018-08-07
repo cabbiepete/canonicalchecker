@@ -1,0 +1,34 @@
+{
+  "name": "@cabbiepete/canonicalchecker",
+  "version": "1.0.0",
+  "description": "Check status of canonicals for a given list of urls and recommend changes.",
+  "main": "index.js",
+  "module": "main.js",
+  "scripts": {
+    "test": "node ./jestload.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cabbiepete/canonicalchecker.git"
+  },
+  "keywords": [
+    "canonical"
+  ],
+  "author": "Peter Simmons <cabbiepete@gmail.com>",
+  "license": "LICENSE",
+  "bugs": {
+    "url": "https://github.com/cabbiepete/canonicalchecker/issues"
+  },
+  "homepage": "https://github.com/cabbiepete/canonicalchecker#readme",
+  "dependencies": {
+    "esm": "^3.0.74"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/",
+    "automock": false
+  },
+  "devDependencies": {
+    "jest": "^23.4.2"
+  }
+}
