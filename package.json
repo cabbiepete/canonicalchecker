@@ -29,6 +29,6 @@
     "automock": false
   },
   "devDependencies": {
-    "jest": "^23.4.2"
+    "jest": "23.4.2"
   }
 }
